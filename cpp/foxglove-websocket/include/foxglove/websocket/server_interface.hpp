@@ -51,6 +51,7 @@ struct ServerOptions {
   std::string certfile = "";
   std::string keyfile = "";
   std::string sessionId;
+  uint8_t numWorkerThreads = 1;
   bool useCompression = false;
   std::vector<std::regex> clientTopicWhitelistPatterns;
 };
