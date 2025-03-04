@@ -16,7 +16,7 @@ class FoxgloveWebSocketConan(ConanFile):
     generators = "CMakeDeps"
     exports_sources = (
         "CMakeLists.txt",
-        "foxglove_websocket-config.cmake.in",  # <--- Add this line
+        "foxglove_websocket-config.cmake.in",
         "LICENSE",
         "src/*",
         "include/*",
